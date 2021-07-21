@@ -211,7 +211,7 @@ public class custom_order {
 
 	System.out.printf("订单的价格为: $%.2f\n", cost);
 	tax = cost * TAX_RATE;
-	System.out.printf("制作及包装费: $%.2f\n", tax);
+	System.out.printf("订单应缴税金: $%.2f\n", tax);
 	System.out.printf("应付金额为: $%.2f\n",(tax + cost));
 
 
